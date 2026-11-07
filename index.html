@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Avneet Bansal</title>
+  <meta name="description" content="Avneet Bansal, Delivery Consultant at AWS Professional Services. Cloud-native platforms, Kubernetes, and Generative AI document intelligence.">
+  <style>
+    :root {
+      --bg: #fdfdfc; --fg: #1d1d1f; --muted: #5f6368; --accent: #0b5cad;
+      --rule: #e6e6e3; --chip: #f1f3f4;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #111214; --fg: #e8e8e6; --muted: #a0a4a8; --accent: #7cb8ff; --rule: #2a2c30; --chip: #1c1e22; }
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0; background: var(--bg); color: var(--fg);
+      font: 17px/1.65 ui-serif, Georgia, "Iowan Old Style", serif;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 4rem 1.5rem 5rem; }
+    a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; }
+    a:hover, a:focus-visible { border-bottom-color: currentColor; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .skip { position: absolute; left: -999px; }
+    .skip:focus { left: 1rem; top: 1rem; background: var(--bg); padding: .5rem; }
+    header h1 { font-size: 2.4rem; margin: 0 0 .25rem; letter-spacing: -.01em; }
+    .role { color: var(--muted); margin: 0 0 1.5rem;
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; font-size: .95rem; }
+    nav ul { list-style: none; padding: 0; margin: 0 0 2.5rem; display: flex; flex-wrap: wrap; gap: .4rem 1.1rem;
+      font-family: ui-sans-serif, system-ui, sans-serif; font-size: .9rem; }
+    h2 { font-size: 1.15rem; text-transform: uppercase; letter-spacing: .08em; margin: 3rem 0 1rem;
+      padding-bottom: .4rem; border-bottom: 1px solid var(--rule);
+      font-family: ui-sans-serif, system-ui, sans-serif; }
+    ul.list { padding-left: 1.1rem; margin: 0; }
+    ul.list li { margin: 0 0 .7rem; }
+    .meta { color: var(--muted); font-size: .9rem; }
+    .news { list-style: none; padding: 0; margin: 0; }
+    .news li { display: grid; grid-template-columns: 5.5rem 1fr; gap: 1rem; margin-bottom: .55rem; }
+    .news time { color: var(--muted); font-family: ui-monospace, Menlo, monospace; font-size: .85rem; padding-top: .15rem; }
+    .chips { display: flex; flex-wrap: wrap; gap: .4rem; padding: 0; list-style: none; margin: .5rem 0 0; }
+    .chips li { background: var(--chip); border-radius: 999px; padding: .15rem .7rem;
+      font: .8rem ui-sans-serif, system-ui, sans-serif; }
+    .hint { color: var(--muted); font-style: italic; }
+    footer { margin-top: 4rem; color: var(--muted); font-size: .85rem; font-family: ui-sans-serif, system-ui, sans-serif; }
+  </style>
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<main id="content">
+  <header>
+    <h1>Avneet Bansal</h1>
+    <p class="role">Delivery Consultant, AWS Professional Services · Orlando, Florida</p>
+    <nav aria-label="Sections">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#oss">Open source</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#talks">Talks</a></li>
+        <li><a href="#writing">Writing</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about" aria-labelledby="about-h">
+    <h2 id="about-h">About</h2>
+    <p>I am a Delivery Consultant at Amazon Web Services Professional Services, where I build cloud-native platforms and Generative AI systems for enterprise customers. My work sits where Kubernetes, infrastructure as code, and large language models meet production.</p>
+    <p>Most recently I designed an agentic contract-intelligence platform on Amazon Bedrock AgentCore. It routes each extracted field to the right model at runtime, heals itself from human corrections, and cut per-document processing cost by about 75%. The platform received the CV-S3 2026 AI-Powered Automation Excellence Award.</p>
+    <p>Before AWS, I spent over a decade in build, release, and DevOps engineering for Universal Studios, NBCUniversal, Ford, and Ygrene Energy Fund. I contribute upstream to CNCF and Kubernetes SIGs projects such as KEDA, Argo, Harbor, and external-dns.</p>
+    <p class="hint">Hint: what keeps a pod from receiving traffic it cannot serve? (9 letters)</p>
+    <ul class="chips" aria-label="Certifications">
+      <li>CKA</li><li>CKAD</li><li>CKS</li><li>AWS SA Professional</li><li>AWS DevOps Professional</li>
+      <li>AWS GenAI Developer Professional</li><li>Terraform Associate</li><li>Prometheus PCA</li>
+    </ul>
+  </section>
+
+  <section id="news" aria-labelledby="news-h">
+    <h2 id="news-h">News</h2>
+    <ul class="news">
+      <li><time datetime="2026-10">Oct 2026</time><span>Invited lecture at NIT Jalandhar on RAG and LLM deployment in enterprise environments.</span></li>
+      <li><time datetime="2026-10">Oct 2026</time><span>Merged fixes into <a href="https://github.com/kubernetes-sigs/external-dns/pull/6762">external-dns</a> and the <a href="https://github.com/kubernetes-sigs/aws-load-balancer-controller/pull/4924">AWS Load Balancer Controller</a>.</span></li>
+      <li><time datetime="2026-10">Oct 2026</time><span>Received the AWS Above &amp; Beyond Award for the contract-intelligence program.</span></li>
+      <li><time datetime="2026-10">Oct 2026</time><span>KEDA readiness-probe fix <a href="https://github.com/kedacore/keda/pull/8226">#8226</a> merged.</span></li>
+      <li><time datetime="2026">2026</time><span>Won the CV-S3 2026 AI-Powered Automation Excellence Award.</span></li>
+      <li><time datetime="2026-08">Aug 2026</time><span>Led a webinar on scaling GenAI workloads with Amazon EKS for 237 attendees.</span></li>
+    </ul>
+  </section>
+
+  <section id="oss" aria-labelledby="oss-h">
+    <h2 id="oss-h">Open source</h2>
+    <p>Libraries I authored:</p>
+    <ul class="list">
+      <li><a href="https://github.com/aws-samples/sample-textract-field-memory">textract-field-memory</a>, spatial memory for OCR pipelines that validates fields by position and skips LLM calls when layout confidence is high. Pure Python, zero dependencies.</li>
+      <li><a href="https://github.com/aws-samples/sample-prompt-correction-memory">prompt-correction-memory</a>, a correction memory that feeds human fixes back into later LLM extractions.</li>
+    </ul>
+    <p>Merged upstream contributions:</p>
+    <ul class="list">
+      <li><a href="https://github.com/kedacore/keda/pull/8226">KEDA #8226</a>, Metrics Server reports NotReady when its gRPC link to the operator is down. <span class="meta">CNCF Graduated · Go</span></li>
+      <li><a href="https://github.com/kubernetes-sigs/external-dns/pull/6762">external-dns #6762</a>, validates Route53 geoproximity bias. <span class="meta">Kubernetes SIGs · Go</span></li>
+      <li><a href="https://github.com/kubernetes-sigs/aws-load-balancer-controller/pull/4924">AWS Load Balancer Controller #4924</a>, logs security group authorize/revoke failures. <span class="meta">Kubernetes SIGs · Go</span></li>
+      <li><a href="https://github.com/ansible-collections/amazon.aws/pull/3110">amazon.aws #3110</a>, fixes the ec2_spot_instance IPv6 suboption. <span class="meta">Ansible · Python</span></li>
+      <li><a href="https://github.com/aws/bedrock-agentcore-sdk-python/pull/682">bedrock-agentcore-sdk-python #682</a>, passes the boto3 session through to MemoryClient. <span class="meta">AWS · Python</span></li>
+      <li class="meta">Documentation fixes in <a href="https://github.com/kedacore/keda-docs/pull/1884">KEDA</a>, <a href="https://github.com/argoproj/argo-rollouts/pull/5064">Argo Rollouts</a>, <a href="https://github.com/goharbor/website/pull/771">Harbor</a>, <a href="https://github.com/vmware-tanzu/velero/pull/10590">Velero</a>, <a href="https://github.com/terraform-aws-modules/terraform-aws-eks/pull/3753">terraform-aws-eks</a>, <a href="https://github.com/aws-controllers-k8s/docs/pull/87">ACK</a>, and the <a href="https://github.com/aws/aws-eks-best-practices/pull/770">EKS Best Practices Guide</a>.</li>
+    </ul>
+  </section>
+
+  <section id="publications" aria-labelledby="pub-h">
+    <h2 id="pub-h">Publications</h2>
+    <ul class="list">
+      <li><a href="https://rjwave.org/jaafr/viewpaperforall.php?paper=JAAFR2606735">From DevOps to Autonomous Platforms</a> <span class="meta">JAAFR, 2026</span></li>
+      <li><a href="https://www.iqrjournals.com/2026/06/production-grade-kubernetes-on-aws-eks_02078032416.html">Production-Grade Kubernetes on AWS EKS</a> <span class="meta">IQR Journals, 2026</span></li>
+      <li><a href="https://rjwave.org/ijedr/viewpaperforall.php?paper=IJEDR26A2855">Enterprise Cloud Transformation</a> <span class="meta">IJEDR, 2026</span></li>
+      <li><a href="https://www.iqrjournals.com/2025/12/infrastructure-as-code-at-scale.html">Infrastructure as Code at Scale</a> <span class="meta">IQR Journals, 2025</span></li>
+      <li><a href="https://www.iqrjournals.com/2025/09/llm-orchestrated-microservices.html">LLM-Orchestrated Microservices</a> <span class="meta">IQR Journals, 2025</span></li>
+    </ul>
+    <p class="meta">Full list on <a href="https://scholar.google.com/citations?user=cK7eLLoAAAAJ&amp;hl=en">Google Scholar</a>.</p>
+  </section>
+
+  <section id="talks" aria-labelledby="talks-h">
+    <h2 id="talks-h">Talks</h2>
+    <ul class="list">
+      <li>Generative AI on the Cloud: RAG and LLM Deployment in Enterprise Environments <span class="meta">Invited lecture, NIT Jalandhar, Oct 2026</span></li>
+      <li><a href="https://www.linkedin.com/posts/avneet-bansal-4402231b_aws-cloudcomputing-handsonworkshop-share-7480819239529144320-ajNT">Building and Scaling GenAI Workloads with Amazon EKS</a> <span class="meta">AWS webinar, Aug 2026, 237 attendees</span></li>
+      <li><a href="https://www.meetup.com/orlandoaws/events/315286785/">Orlando AWS User Group</a> <span class="meta">Jul 2026</span></li>
+      <li>Amazon EKS Auto Mode workshop <span class="meta">Jul 2026</span></li>
+    </ul>
+  </section>
+
+  <section id="writing" aria-labelledby="writing-h">
+    <h2 id="writing-h">Writing</h2>
+    <ul class="list">
+      <li><a href="https://dev.to/avneet_bansal_a65b3f31fc4/your-readiness-probe-is-lying-to-you-5e1g">Your Readiness Probe Is Lying to You</a></li>
+      <li><a href="https://dev.to/avneet_bansal_a65b3f31fc4/a-field-guide-to-beating-amazon-bedrock-throttling-1b9g">A Field Guide to Beating Amazon Bedrock Throttling</a></li>
+      <li><a href="https://dev.to/avneet_bansal_a65b3f31fc4/the-gitops-bridge-keep-terraform-and-argocd-out-of-each-others-way-3721">The GitOps Bridge: Keep Terraform and ArgoCD Out of Each Other's Way</a></li>
+      <li><a href="https://dev.to/avneet_bansal_a65b3f31fc4/llm-serving-on-kubernetes-in-2026-whats-solved-and-whats-still-open-52ad">LLM Serving on Kubernetes in 2026: What Is Solved and What Is Still Open</a></li>
+      <li><a href="https://dev.to/avneet_bansal_a65b3f31fc4/give-your-document-ocr-pipeline-a-memory-59l1">Give Your Document OCR Pipeline a Memory</a></li>
+    </ul>
+    <p class="meta">More on <a href="https://dev.to/avneet_bansal_a65b3f31fc4">dev.to</a> and <a href="https://medium.com/@avneetbansal9815">Medium</a>.</p>
+  </section>
+
+  <section id="awards" aria-labelledby="awards-h">
+    <h2 id="awards-h">Awards</h2>
+    <ul class="list">
+      <li>CV-S3 2026 AI-Powered Automation Excellence Award <span class="meta">AI &amp; Advanced Technologies Awards</span></li>
+      <li>AWS Above &amp; Beyond Award <span class="meta">2026</span></li>
+      <li>AWS Customer Obsession Award <span class="meta">2023</span></li>
+    </ul>
+  </section>
+
+  <section id="contact" aria-labelledby="contact-h">
+    <h2 id="contact-h">Contact</h2>
+    <p>Email: <a href="mailto:avneetbansal9815@gmail.com">avneetbansal9815@gmail.com</a><br>
+       <a href="https://github.com/avneetbansal-aws">GitHub</a> ·
+       <a href="https://www.linkedin.com/in/avneet-bansal-4402231b">LinkedIn</a> ·
+       <a href="https://scholar.google.com/citations?user=cK7eLLoAAAAJ&amp;hl=en">Scholar</a> ·
+       <a href="https://dev.to/avneet_bansal_a65b3f31fc4">dev.to</a></p>
+  </section>
+
+  <footer>Last updated November 2026.</footer>
+</main>
+</body>
+</html>
